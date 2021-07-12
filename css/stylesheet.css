@@ -1,0 +1,254 @@
+*
+{
+  margin:0;
+  padding: 0;
+}
+#nav-bar{
+  position:sticky;
+  top:0;
+  z-index: 10;
+
+}
+.navbar-brand{
+  height:40px;
+  width: 40px;
+  font-weight: bolder;
+  padding-left: 40px;
+  font-style: italic;
+
+}
+.nav-item {
+  padding-left: 20px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+
+}
+#navbar  li a:hover{
+  color:blue;
+}
+.slide{
+  width: 100%;
+  border-radius: 0%;
+}
+.carousel-caption h3{
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin:200px;
+}
+.about{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.about-content
+{
+  font-size: 20px;
+  color:black;
+  text-decoration-style: wavy;
+
+  padding-right: 90px;
+
+}
+.container-fluid  {
+
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('https://chiefexecutive.net/wp-content/uploads/2020/02/AdobeStock_289776191-e1581097279362-1280x720.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  height:400px;
+  padding-top: 50px;
+  padding-bottom:50px;
+
+  }
+
+.container{
+  padding-bottom: 30px;
+  width:100%;
+}
+.icon
+{
+  padding: 30px;
+  font-size: 40px;
+  margin:20px auto;
+  height:80px;
+  width: 80px;
+  color:white;
+
+
+}
+.container-fluid p{
+  padding-bottom:10px;
+}
+.img{
+  width: 200px;
+  height:200px;
+  border-radius: 8px;
+  opacity: 1;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: grey;
+
+  font-size: 16px;
+  padding: 16px 32px;
+}
+#promo
+{
+
+background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('https://picjumbo.com/wp-content/uploads/creative-designer-photographer-workspace.jpg');
+
+
+background-size: cover;
+
+background-position: center;
+height:300px;
+width:auto;
+padding-top: 50px;
+padding-bottom:50px;
+
+
+}
+.card {
+    border-radius: 1rem;
+    box-shadow: 5px 10px #888888;
+}
+
+@media(max-width:767px) {
+    .card {
+        margin: 1rem 0.7rem 1rem;
+        max-width: 80vw
+    }
+}
+
+img {
+    width: 6.2rem;
+    border-radius: 5rem;
+    margin: 1.3rem auto 1rem auto
+}
+
+.col-md-4 {
+    padding: 0 0.5rem
+}
+
+.card-title {
+    font-size: 1rem;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: 'IM Fell French Canon SC'
+}
+
+.card-text {
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 0.8rem;
+    color: rgb(82, 81, 81);
+    line-height: 1.4rem
+}
+
+.footer {
+    border-top: none;
+    text-align: center;
+    line-height: 1.2rem;
+    padding: 2rem 0 1.4rem 0;
+    font-family: 'Varela Round'
+}
+
+#name {
+    font-size: 0.8rem;
+    font-weight: bold
+}
+
+#position {
+    font-size: 0.7rem
+}
+
+a {
+    color: rgb(151, 248, 6);
+    font-weight: bold
+}
+a:hover {
+    color: rgb(151, 248, 6)
+}
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+
+  padding: 30px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
